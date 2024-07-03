@@ -1,0 +1,24 @@
+.Navbar-Container {
+    background-color: #172e56;
+    padding: 30px;
+}
+
+.Navbar-Container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 20px;
+    align-items: center;
+}
+.Navbar-Container li {
+    list-style: none;
+}
+.Navbar-Container a{
+    text-decoration: none;
+    color: white;
+    transition: ease-in-out 0.2s;
+}
+.Navbar-Container a:hover{
+    text-decoration: none;
+    color: red;
+}
